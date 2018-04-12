@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c952d265-497f-453b-a4b7-466175fad455" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/_modules/bambo/bambo.jade" afterPath="$PROJECT_DIR$/src/_modules/bambo/bambo.jade" />
-      <change beforePath="$PROJECT_DIR$/src/_modules/bambo/bambo.scss" afterPath="$PROJECT_DIR$/src/_modules/bambo/bambo.scss" />
-      <change beforePath="$PROJECT_DIR$/src/_modules/navigation/navigation.scss" afterPath="$PROJECT_DIR$/src/_modules/navigation/navigation.scss" />
-      <change beforePath="$PROJECT_DIR$/src/_modules/photosPhraseSprout/sprout.scss" afterPath="$PROJECT_DIR$/src/_modules/photosPhraseSprout/sprout.scss" />
-      <change beforePath="$PROJECT_DIR$/src/_styles/media.scss" afterPath="$PROJECT_DIR$/src/_styles/media.scss" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/favicon.png" afterPath="$PROJECT_DIR$/src/favicon.png" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -21,71 +17,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="media.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/_styles/media.scss">
+      <file leaf-file-name="index.jade" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="69" column="14" lean-forward="false" selection-start-line="69" selection-start-column="14" selection-end-line="69" selection-end-column="14" />
+            <state relative-caret-position="415">
+              <caret line="27" column="33" lean-forward="false" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bambo.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/_modules/bambo/bambo.scss">
+      <file leaf-file-name="base.jade" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/_layouts/base.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="navigation.jade" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/_modules/navigation/navigation.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="25" column="19" lean-forward="false" selection-start-line="21" selection-start-column="14" selection-end-line="25" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sprout.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/_modules/photosPhraseSprout/sprout.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="17" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="photosPhrase.jade" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/_modules/photosPhrasePebble/photosPhrase.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bambo.jade" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/_modules/bambo/bambo.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="17" column="11" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="navigation.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/_modules/navigation/navigation.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+            <state relative-caret-position="208">
+              <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+              <caret line="14" column="33" lean-forward="false" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -136,7 +83,6 @@
         <option value="$PROJECT_DIR$/src/_modules/header/logo.scss" />
         <option value="$PROJECT_DIR$/src/_modules/header/header.scss" />
         <option value="$PROJECT_DIR$/src/_modules/sevenSteps/sevenSteps.jade" />
-        <option value="$PROJECT_DIR$/src/_layouts/base.jade" />
         <option value="$PROJECT_DIR$/src/_scripts/main.js" />
         <option value="$PROJECT_DIR$/src/_modules/bonuses/buyBtn.scss" />
         <option value="$PROJECT_DIR$/src/_modules/bonuses/bonuses.scss" />
@@ -165,6 +111,7 @@
         <option value="$PROJECT_DIR$/src/_modules/bambo/bambo.jade" />
         <option value="$PROJECT_DIR$/src/_modules/navigation/navigation.scss" />
         <option value="$PROJECT_DIR$/src/_styles/media.scss" />
+        <option value="$PROJECT_DIR$/src/_layouts/base.jade" />
       </list>
     </option>
   </component>
@@ -219,6 +166,12 @@
               <item name="feng-shui" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="feng-shui" type="b2602c69:ProjectViewProjectNode" />
+              <item name="feng-shui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="_layouts" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -239,6 +192,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/_modules" />
       <recent name="$PROJECT_DIR$/src/_images" />
       <recent name="$PROJECT_DIR$/src/_modules/photosPhrase" />
@@ -271,17 +225,18 @@
       <option name="presentableId" value="Default" />
       <updated>1523422616667</updated>
       <workItem from="1523422624489" duration="43770000" />
-      <workItem from="1523505361349" duration="12483000" />
+      <workItem from="1523505361349" duration="13171000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56253000" />
+    <option name="totallyTimeSpent" value="56941000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1020" y="0" width="900" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30666667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30666667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -406,14 +361,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/_layouts/base.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="13" column="35" lean-forward="false" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tmp/styles/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -500,14 +447,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="1" column="31" lean-forward="false" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="27" column="33" lean-forward="false" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -658,10 +597,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/_styles/media.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="69" column="14" lean-forward="false" selection-start-line="69" selection-start-column="14" selection-end-line="69" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/_modules/bambo/bambo.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="277">
           <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_modules/navigation/navigation.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="25" column="19" lean-forward="false" selection-start-line="21" selection-start-column="14" selection-end-line="25" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -690,14 +645,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/_modules/navigation/navigation.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="25" column="19" lean-forward="false" selection-start-line="21" selection-start-column="14" selection-end-line="25" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/_modules/navigation/navigation.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
@@ -706,10 +653,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/_styles/media.scss">
+    <entry file="file://$PROJECT_DIR$/src/index.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="69" column="14" lean-forward="false" selection-start-line="69" selection-start-column="14" selection-end-line="69" selection-end-column="14" />
+        <state relative-caret-position="415">
+          <caret line="27" column="33" lean-forward="false" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_layouts/base.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+          <caret line="14" column="33" lean-forward="false" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
           <folding />
         </state>
       </provider>
