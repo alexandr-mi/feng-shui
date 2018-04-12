@@ -16,13 +16,11 @@
 }
 
 .navigation__btn-svg.open {
-  transform: rotate(180deg);
+  fill: white
 }
 
 .navigation__btn:hover .navigation__btn-svg {
-  animation-name: buttonJumping;
-  animation-duration: 0.6s;
-  animation-iteration-count: infinite;
+  fill: white
 }
 
 .navigation__btn-svg {
@@ -30,17 +28,16 @@
   width: 30px;
   padding: 10px 0;
   fill: black;
-  transition: transform 0.5s;
 }
 
-@keyframes buttonJumping {
-  0% {
-    top: 0;
-  }
-  50% {
-    top: 10%;
-  }
-  100% {
-    top: 0;
-  }
-}
+//@keyframes buttonJumping {
+//  0% {
+//    top: 0;
+//  }
+//  50% {
+//    top: 10%;
+//  }
+//  100% {
+//    top: 0;
+//  }
+//}
