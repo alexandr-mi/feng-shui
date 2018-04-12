@@ -16,18 +16,18 @@
 }
 
 .navigation__btn-svg.open {
-  fill: white
+  fill: gray
 }
 
 .navigation__btn:hover .navigation__btn-svg {
-  fill: white
+  fill: gray
 }
 
 .navigation__btn-svg {
   position: relative;
   width: 30px;
   padding: 10px 0;
-  fill: black;
+  fill: white;
 }
 
 //@keyframes buttonJumping {

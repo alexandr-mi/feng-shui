@@ -5,3 +5,15 @@
     background-size: 120%;
   }
 }
+@media screen and (max-width: 770px) {
+  .sprout {
+    .photosPhrase__text-container {
+      background-size: cover;
+    }
+  }
+}
+@media screen and (max-width: 660px) {
+  .sprout .img.textBig {
+    font-size: 30px;
+  }
+}
