@@ -1,0 +1,22 @@
+@import 'cards';
+@import 'photoText';
+@import 'price';
+
+.bonuses__title {
+  padding-top: 30px;
+  font-size: 45px;
+  color: white;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.bonuses__title-description {
+  padding: 0;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+

@@ -1,0 +1,37 @@
+.sevenSteps__step {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 10px 2px;
+  border-top: 2px solid rgb(184,185,188);
+  border-bottom: 2px solid rgb(184,185,188);
+  margin-bottom: 5px;
+}
+.sevenSteps__steps-list {
+  margin-bottom: 20px;
+}
+
+.sevenSteps__step-main {
+  text-decoration: none;
+  color: rgb(156,158,160);
+  font-weight: 700;
+  display: flex;
+  font-size: 40px;
+}
+
+.sevenSteps__step-main:hover {
+  color: rgba(156,158,160, 0.7);
+}
+
+.sevenSteps__step-name-light {
+  font-weight: 500 !important;
+}
+
+.sevenSteps__step-name, .sevenSteps__step-img {
+  margin-left: 20px;
+}
+.sevenSteps__step-img {
+  width: 180px;
+  min-height: 200px;
+  font-size: 0;
+}

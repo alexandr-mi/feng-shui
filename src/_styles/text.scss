@@ -1,0 +1,64 @@
+p {
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.container_text {
+  padding: 40px;
+}
+
+
+.textTitle {
+  font-size: 20px;
+  color: rgb(46,46,47);
+}
+.textTitleMedium {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.textTitleBig {
+  font-size: 45px;
+}
+
+.textTitleBig-fw500 {
+  font-weight: 500 !important;
+}
+
+.italic {
+  font-style: italic;
+}
+
+p.img {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.img.textMedium {
+  font-size: 25px;
+  font-weight: 700;
+  color: white;
+}
+
+.img.textBig {
+  font-size: 40px;
+  font-weight: 700;
+  color: white;
+}
+
+.textCenter {
+  text-align: center !important;
+}
+
+.textLeft {
+  text-align: left !important;
+}
+
+ol {
+  max-width: 800px;
+  margin: 0 auto;
+}

@@ -1,0 +1,42 @@
+.navigation__list {
+  background-color: rgb(62,19,20);
+}
+
+.navigation__list-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.navigation__item {
+  padding: 0;
+  margin-right: 30px;
+  position: relative;
+}
+
+.navigation__item a {
+  text-decoration: none;
+  color: rgba(white, 0.7);
+  font-size: 14px;
+  font-weight: 700;
+}
+.navigation__item.active a:after {
+  content: '';
+  position: absolute;
+  width: 32px;
+  height: 30px;
+  background-image: url('../images/sprites/sprites.png');
+  background-repeat: no-repeat;
+  background-position: -32px 0px;
+  bottom: -230%;
+  left: 50%;
+  color: red;
+  transform: translate(-50%, 0);
+}
+
+.navigation__item.active a, .navigation__item:hover a {
+  color: rgba(white, 1);
+}

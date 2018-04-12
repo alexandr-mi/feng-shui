@@ -1,0 +1,23 @@
+.buyBtn__container {
+  width: 100%;
+}
+.buyBtn {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  color: white;
+  line-height: 80px;
+  text-decoration: none;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  display: inline-block;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  height: 80px;
+  width: 460px;
+  text-align: center;
+  background: linear-gradient(top, rgb(255,193,95), rgb(255,159,98));
+  border: 1px solid rgb(250,241,57);
+  border-radius: 50px;
+}

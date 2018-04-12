@@ -1,0 +1,30 @@
+.logo {
+  display: flex;
+  align-items: flex-start;
+  text-decoration: none;
+  text-shadow: -1px -1px 2px rgba(0,0,0,0.5);
+  color: white;
+}
+.logo__img {
+  width: 85px;
+  margin-right: 24px;
+  margin-bottom: 12px;
+}
+.logo__name {
+  color: #B5A642;
+  text-decoration: none;
+  text-transform: capitalize;
+  text-align: left;
+  font-size: 43.2px;
+  vertical-align: top;
+  letter-spacing: -0.075em;
+  line-height: 0.5;
+  margin: 0;
+  padding: 0;
+}
+
+.logo__name-description {
+  color: white;
+  font-style: italic;
+
+}

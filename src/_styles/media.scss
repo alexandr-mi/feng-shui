@@ -1,0 +1,112 @@
+@media screen and (max-width: 1080px) {
+  .navigation__item.active a:after {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .img.textMedium {
+    font-size: 20px;
+  }
+
+  .img.textBig {
+    font-size: 35px;
+  }
+  .photoText__text {
+    font-size: 25px;
+  }
+  .photosPhrase__text-shadow {
+    font-size: 16px !important;
+    margin-bottom: 10px !important;
+  }
+
+  .sevenSteps__step {
+    flex-direction: column;
+  }
+  .sevenSteps__step-main {
+    font-size: 25px;
+  }
+
+  .sevenSteps__step-img {
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+  }
+  .bonuses__cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bonuses__card {
+    width: 300px;
+    margin-bottom: 30px;
+  }
+
+
+  .container-nav {
+    overflow: hidden;
+  }
+  .navigation__list-container {
+    flex-direction: column;
+    align-items: flex-start;
+    display: none;
+  }
+  .navigation__list-container.open {
+    display: block;
+  }
+  .navigation__btn {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .alan__container-text {
+    display: flex;
+    flex-direction: column;
+  }
+  .alan__img {
+    float: none;
+    margin: 0 auto;
+  }
+  .buyBtn {
+    width: 290px;
+  }
+  .container_text {
+    padding: 15px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .alan__img {
+    width: 100%;
+  }
+  .sevenSteps__step-main {
+    font-size: 20px;
+  }
+  .bonuses__card {
+    width: 280px;
+    margin-bottom: 30px;
+  }
+  .bamboo__text {
+    .img.textMedium {
+      font-size: 18px;
+    }
+
+    .img.textBig {
+      font-size: 22px;
+    }
+  }
+  .logo {
+    margin-bottom: 20px;
+  }
+  .logo__img {
+    width: 65px;
+  }
+  .logo__name {
+    font-size: 24px;
+  }
+  .logo__name-description {
+    font-size: 16px;
+  }
+}
+

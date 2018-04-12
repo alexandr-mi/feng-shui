@@ -1,0 +1,21 @@
+.photosPhrase__text-container {
+  width: 100%;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.photosPhrase__text {
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+  font-weight: 600;
+}
+.photosPhrase__text-shadow {
+  font-size: 30px !important;
+  text-shadow: 3px 3px 2px rgba(0, 0, 0, 1);
+  font-weight: 700;
+}

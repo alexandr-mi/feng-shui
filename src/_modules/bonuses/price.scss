@@ -1,0 +1,23 @@
+.price {
+  background-color: white;
+}
+
+.price__item {
+  text-align: center;
+}
+
+
+.price__item-description {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.price__item-main {
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(226,156,98);
+}
+.price__item-main_no-marg {
+  margin-bottom: 10px;
+}

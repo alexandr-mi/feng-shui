@@ -1,0 +1,33 @@
+@import 'bg';
+@import 'text';
+@import url('https://fonts.googleapis.com/css?family=Gothic+A1:400,600,700');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:700');
+
+body {
+  z-index: -1;
+  font-family: 'Gothic A1', sans-serif;
+  background-color: rgb(238, 237, 237);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  overflow: hidden;
+}
+.container-nav {
+  overflow: visible;
+}
+
+
+.section {
+  margin: 20px 0;
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}

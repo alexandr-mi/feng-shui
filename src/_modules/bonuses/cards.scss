@@ -1,0 +1,45 @@
+.bonuses__cards {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.bonuses__card {
+  width: 32%;
+}
+
+.bonuses__card-header {
+  padding: 10px;
+  background-color: rgb(226,156,98);
+  height: 150px;
+}
+
+.bonuses__card-name {
+  font-size: 50px;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+}
+
+.bonuses__card-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+}
+
+.bonuses__card-main {
+  background-color: white;
+  text-align: center;
+  height: 400px;
+  padding: 10px;
+  font-weight: 500;
+}
+
+.bonuses__card-main-text {
+  text-align: left;
+}
+
+.bonuses__card-img {
+  max-width: 80%;
+}
