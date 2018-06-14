@@ -1,23 +1,90 @@
 .price {
-  background-color: white;
+  //background-color: white;
+}
+
+.price__list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 
 .price__item {
-  text-align: center;
-}
+  font-family: Calibri, 'Lato', sans-serif;
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
 
 
-.price__item-description {
-  margin-bottom: 10px;
-  font-size: 20px;
-  font-weight: 700;
+  .price__item_card {
+    width: 100%;
+    padding: 25px;
+    background-color: rgb(214, 38, 2);
+    border: 1px solid rgba(50, 91, 134, 1.00);
+    border-radius: 50px;
+    color: white;
+    margin-bottom: 30px;
+  }
+
+  .price__item-title {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 6px;
+  }
+
+  p, li {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 0px;
+    font-weight: 400;
+  }
+
+  ol {
+    padding: 0;
+    list-style-type: none;
+  }
+
+  ul {
+    list-style-type: disc;
+  }
+  strong {
+    font-weight: 900;
+  }
+
+  .small-caps {
+    font-variant: small-caps;
+  }
+
+  .price__btn_pay {
+    font-variant: small-caps;
+    padding: 8px 30px 10px;
+    font-size: 20px;
+    background-color: rgb(214, 38, 2);
+    border: 1px solid rgba(50, 91, 134, 1.00);
+    border-radius: 8px;
+    color: white;
+    font-weight: 700;
+  }
 }
 
-.price__item-main {
-  font-size: 30px;
-  font-weight: 700;
-  color: rgb(226,156,98);
+@media screen and (max-width: 930px) {
+  .price__list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .price__item {
+    width: 60%;
+  }
 }
-.price__item-main_no-marg {
-  margin-bottom: 10px;
+
+@media screen and (max-width: 570px) {
+
+  .price__item {
+    width: 90%;
+  }
 }
