@@ -3,6 +3,7 @@
 import path from 'path';
 import autoprefixer from 'autoprefixer';
 import gulpif from 'gulp-if';
+import cssnano from 'cssnano';
 
 export default function(gulp, plugins, args, config, taskTarget, browserSync) {
   let dirs = config.directories;
@@ -26,13 +27,16 @@ export default function(gulp, plugins, args, config, taskTarget, browserSync) {
         plugins.util.log(err);
       })
       .on('error', plugins.notify.onError(config.defaultNotification))
-      .pipe(plugins.postcss([autoprefixer({browsers: ['last 2 version', '> 5%', 'safari 5', 'ios 6', 'android 4']})]))
+      .pipe(plugins.postcss([
+        autoprefixer({browsers: ['last 2 version', '> 5%', 'safari 5', 'ios 6', 'android 4']}),
+        cssnano()
+      ]))
       .pipe(plugins.rename(function(path) {
         // Remove 'source' directory as well as prefixed folder underscores
         // Ex: 'src/_styles' --> '/styles'
         path.dirname = path.dirname.replace(dirs.source, '').replace('_', '');
       }))
-      .pipe(gulpif(args.production, plugins.cssnano({rebase: false})))
+      .pipe(gulpif(args.production, plugins.cssnano()))
       .pipe(plugins.sourcemaps.write('./'))
       .pipe(gulp.dest(dest))
       .pipe(browserSync.stream({match: '**/*.css'}));

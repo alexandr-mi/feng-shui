@@ -1,5 +1,7 @@
 .price {
   //background-color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .price__list {
@@ -21,21 +23,26 @@
 
   .price__item_card {
     width: 100%;
-    padding: 25px;
-    background-color: rgb(214, 38, 2);
-    border: 1px solid rgba(50, 91, 134, 1.00);
-    border-radius: 50px;
-    color: white;
+    background-color: white;
+    //border: 1px solid rgba(50, 91, 134, 1.00);
+    //border-radius: 50px;
+    color: black;
     margin-bottom: 30px;
   }
 
   .price__item-title {
-    font-size: 20px;
+    height: 150px;
+    font-size: 40px;
     text-align: center;
-    margin-top: 0px;
-    margin-bottom: 6px;
+    color: white;
+    margin: 0;
+    padding-top: 25px;
+    background-color: #e29c62;
+    width: 100%;
   }
-
+  .price__item-text {
+    padding: 25px;
+  }
   p, li {
     font-size: 14px;
     line-height: 1.5;
@@ -60,14 +67,18 @@
   }
 
   .price__btn_pay {
+    position: relative;
+    width: 160px;
+    height: 40px;
     font-variant: small-caps;
-    padding: 8px 30px 10px;
     font-size: 20px;
-    background-color: rgb(214, 38, 2);
-    border: 1px solid rgba(50, 91, 134, 1.00);
-    border-radius: 8px;
-    color: white;
+    background-color: white;
+    //border: 1px solid rgba(50, 91, 134, 1.00);
+    border: none;
+    //border-radius: 8px;
+    color: black;
     font-weight: 700;
+    cursor: pointer;
   }
 }
 

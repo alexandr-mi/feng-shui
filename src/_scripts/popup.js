@@ -1,8 +1,6 @@
 import magnificPopup from 'magnific-popup';
 import $ from 'jquery';
 
-console.log( magnificPopup );
-
 window.addEventListener('load', () => {
   let $youtubeBtn = $('.popup-youtube');
 
@@ -10,8 +8,3 @@ window.addEventListener('load', () => {
       type: 'iframe',
   });
 });
-
-// $(document).ready(function() {
-//   $('.popup-youtube').magnificPopup({
-//     type: 'iframe',
-// });

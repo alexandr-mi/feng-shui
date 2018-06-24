@@ -1,5 +1,5 @@
 .price
-  .price__container
+  .price__container.container
     ul.price__list
       li.price__item
         .price__item_card
@@ -43,16 +43,14 @@
         form(target='paypal', action='https://www.paypal.com/cgi-bin/webscr', method='post')
           input(type='hidden', name='cmd', value='_cart')
           input(type='hidden', name='business', value='example@mail.com')
-          input(type='hidden', name='lc', value='US')
-          input(type='hidden', name='item_name', value='option one')
+          input(type='hidden', name='lc', value='GB')
+          input(type='hidden', name='item_name', value='Feng Shui Masters course. Option One')
           input(type='hidden', name='amount', value='1570.00')
           input(type='hidden', name='currency_code', value='GBP')
           input(type='hidden', name='button_subtype', value='products')
           input(type='hidden', name='no_note', value='0')
           input(type='hidden', name='add', value='1')
-          input(type='hidden', name='bn', value='PP-ShopCartBF:btn_cart_LG.gif:NonHostedGuest')
           input.price__btn_pay(type='submit' value='Add to cart')
-          img(alt='', border='0', src='https://www.paypalobjects.com/en_US/i/scr/pixel.gif', width='1', height='1')
       li.price__item
         .price__item_card
           h3.price__item-title.small-caps Option TWO
@@ -96,17 +94,14 @@
         form(target='paypal', action='https://www.paypal.com/cgi-bin/webscr', method='post')
           input(type='hidden', name='cmd', value='_cart')
           input(type='hidden', name='business', value='example@mail.com')
-          input(type='hidden', name='lc', value='US')
-          input(type='hidden', name='item_name', value='option one')
+          input(type='hidden', name='lc', value='GB')
+          input(type='hidden', name='item_name', value='Feng Shui Masters course. Option Two.')
           input(type='hidden', name='amount', value='1480.00')
           input(type='hidden', name='currency_code', value='GBP')
           input(type='hidden', name='button_subtype', value='products')
           input(type='hidden', name='no_note', value='0')
           input(type='hidden', name='add', value='1')
-          input(type='hidden', name='bn', value='PP-ShopCartBF:btn_cart_LG.gif:NonHostedGuest')
           input.price__btn_pay(type='submit' value='Add to cart')
-          img(alt='', border='0', src='https://www.paypalobjects.com/en_US/i/scr/pixel.gif', width='1', height='1')
-
       li.price__item
         .price__item_card
           h3.price__item-title.small-caps Option THREE
@@ -124,14 +119,11 @@
         form(target='paypal', action='https://www.paypal.com/cgi-bin/webscr', method='post')
           input(type='hidden', name='cmd', value='_cart')
           input(type='hidden', name='business', value='example@mail.com')
-          input(type='hidden', name='lc', value='US')
-          input(type='hidden', name='item_name', value='option one')
+          input(type='hidden', name='lc', value='GB')
+          input(type='hidden', name='item_name', value='Feng Shui Masters course. Option Three.')
           input(type='hidden', name='amount', value='94.00')
           input(type='hidden', name='currency_code', value='GBP')
           input(type='hidden', name='button_subtype', value='products')
           input(type='hidden', name='no_note', value='0')
           input(type='hidden', name='add', value='1')
-          input(type='hidden', name='bn', value='PP-ShopCartBF:btn_cart_LG.gif:NonHostedGuest')
           input.price__btn_pay(type='submit' value='Add to cart')
-          img(alt='', border='0', src='https://www.paypalobjects.com/en_US/i/scr/pixel.gif', width='1', height='1')
-

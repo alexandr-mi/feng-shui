@@ -41,15 +41,15 @@
   align-items: flex-start;
 }
 
-.sevenSteps__popup-youtube {
+.sevenSteps__video {
+  margin-top: 20px;
   align-self: center;
+  width: 400px;
+  height: 225px;
 }
 
-.sevenSteps__popup-youtube {
-  width: 50px;
-  img {
-    width: 50px;
+@media screen and (max-width: 500px) {
+  .sevenSteps__video {
+    width: 100%;
   }
 }
-
-@import './popup';
