@@ -3,20 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c952d265-497f-453b-a4b7-466175fad455" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/gulp/browserify.js" afterPath="$PROJECT_DIR$/gulp/browserify.js" />
-      <change beforePath="$PROJECT_DIR$/gulp/sass.js" afterPath="$PROJECT_DIR$/gulp/sass.js" />
-      <change beforePath="$PROJECT_DIR$/src/_layouts/base.jade" afterPath="$PROJECT_DIR$/src/_layouts/base.jade" />
-      <change beforePath="$PROJECT_DIR$/src/_modules/alan/alan.jade" afterPath="$PROJECT_DIR$/src/_modules/alan/alan.jade" />
-      <change beforePath="$PROJECT_DIR$/src/_modules/bonuses/bonuses.jade" afterPath="$PROJECT_DIR$/src/_modules/bonuses/bonuses.jade" />
-      <change beforePath="$PROJECT_DIR$/src/_modules/bonuses/bonuses.scss" afterPath="$PROJECT_DIR$/src/_modules/bonuses/bonuses.scss" />
       <change beforePath="$PROJECT_DIR$/src/_modules/bonuses/price.jade" afterPath="$PROJECT_DIR$/src/_modules/bonuses/price.jade" />
       <change beforePath="$PROJECT_DIR$/src/_modules/bonuses/price.scss" afterPath="$PROJECT_DIR$/src/_modules/bonuses/price.scss" />
-      <change beforePath="$PROJECT_DIR$/src/_modules/sevenSteps/popup.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/_modules/sevenSteps/sevenSteps.jade" afterPath="$PROJECT_DIR$/src/_modules/sevenSteps/sevenSteps.jade" />
-      <change beforePath="$PROJECT_DIR$/src/_modules/sevenSteps/sevenSteps.scss" afterPath="$PROJECT_DIR$/src/_modules/sevenSteps/sevenSteps.scss" />
-      <change beforePath="$PROJECT_DIR$/src/_scripts/main.js" afterPath="$PROJECT_DIR$/src/_scripts/main.js" />
-      <change beforePath="$PROJECT_DIR$/src/_scripts/popup.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/_styles/global.scss" afterPath="$PROJECT_DIR$/src/_styles/global.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -40,31 +28,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="price.jade" pinned="false" current-in-tab="false">
+      <file leaf-file-name="price.jade" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/_modules/bonuses/price.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="price.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/_modules/bonuses/price.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="43" column="13" lean-forward="false" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bonuses.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/_modules/bonuses/bonuses.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+            <state relative-caret-position="317">
+              <caret line="44" column="133" lean-forward="true" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="133" />
               <folding />
             </state>
           </provider>
@@ -95,6 +63,7 @@
       <find>uglify</find>
       <find>PT</find>
       <find>PT s</find>
+      <find>cnm</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -150,10 +119,10 @@
         <option value="$PROJECT_DIR$/src/_scripts/main.js" />
         <option value="$PROJECT_DIR$/src/_modules/sevenSteps/sevenSteps.jade" />
         <option value="$PROJECT_DIR$/src/_modules/sevenSteps/sevenSteps.scss" />
-        <option value="$PROJECT_DIR$/src/_modules/bonuses/price.jade" />
         <option value="$PROJECT_DIR$/src/_modules/bonuses/bonuses.scss" />
         <option value="$PROJECT_DIR$/src/_modules/bonuses/bonuses.jade" />
         <option value="$PROJECT_DIR$/src/_modules/bonuses/price.scss" />
+        <option value="$PROJECT_DIR$/src/_modules/bonuses/price.jade" />
       </list>
     </option>
   </component>
@@ -212,7 +181,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -238,29 +207,11 @@
               <item name="_modules" type="462c0819:PsiDirectoryNode" />
               <item name="bonuses" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="feng-shui" type="b2602c69:ProjectViewProjectNode" />
-              <item name="feng-shui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="sevenSteps" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="feng-shui" type="b2602c69:ProjectViewProjectNode" />
-              <item name="feng-shui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="_scripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="feng-shui" type="b2602c69:ProjectViewProjectNode" />
-              <item name="feng-shui" type="462c0819:PsiDirectoryNode" />
-              <item name="tmp" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -318,12 +269,13 @@
       <workItem from="1528998098018" duration="7549000" />
       <workItem from="1529049648201" duration="8560000" />
       <workItem from="1529669827440" duration="1080000" />
-      <workItem from="1529857370236" duration="990000" />
+      <workItem from="1529857370236" duration="1563000" />
+      <workItem from="1529925717609" duration="1613000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82181000" />
+    <option name="totallyTimeSpent" value="84367000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="664" y="23" width="1256" height="1057" extended-state="0" />
@@ -514,23 +466,23 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tmp/styles/main.css.map">
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/scripts/main.js.map">
       <provider editor-type-id="sourcemapFileViewerProvider">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/scripts/main.js.map">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="0" column="481" lean-forward="false" selection-start-line="0" selection-start-column="481" selection-end-line="0" selection-end-column="481" />
         </state>
-      </provider>
-      <provider editor-type-id="sourcemapFileViewerProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tmp/scripts/main.js">
@@ -619,7 +571,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="6" column="37" lean-forward="false" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -627,7 +578,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -635,7 +585,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
           <caret line="20" column="37" lean-forward="false" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -643,7 +592,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="602">
           <caret line="52" column="16" lean-forward="false" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -651,7 +599,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
           <caret line="3" column="47" lean-forward="false" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -659,13 +606,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_modules/bonuses/price.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="65" column="15" lean-forward="true" selection-start-line="65" selection-start-column="15" selection-end-line="65" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/_modules/bonuses/bonuses.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
+        <state relative-caret-position="50">
           <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
           <folding />
         </state>
@@ -681,16 +635,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/_modules/bonuses/price.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/_modules/bonuses/price.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="43" column="13" lean-forward="false" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+        <state relative-caret-position="317">
+          <caret line="44" column="133" lean-forward="true" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="133" />
           <folding />
         </state>
       </provider>
